@@ -1,0 +1,5782 @@
+{
+  "mark": "text",
+  "encoding": {
+    "color": {"type": "quantitative","field": "count"},
+    "text": {"value": " "},
+    "row": {"type": "nominal","field": "disease"},
+    "column": {
+      "type": "nominal",
+      "field": "gene_symbol",
+      "axis": {"labelAngle": -90,"offset": 25}
+    }
+  },
+  "config": {
+    "mark": {"applyColorToBackground": true},
+    "cell": {"width": 500,"height": 350},
+    "scale": {"bandSize": 15,"textBandWidth": 30}
+  },
+  "data": {
+    "values": [
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "AJUBA",
+        "count": 0.01282051282051282
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "AMOTL2",
+        "count": 0.01282051282051282
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "DCHS1",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "DVL2",
+        "count": 0.01282051282051282
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "FAT4",
+        "count": 0.08974358974358974
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "LATS2",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "NPHP4",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "STK4",
+        "count": 0.01282051282051282
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "TEAD1",
+        "count": 0.01282051282051282
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "TJP1",
+        "count": 0.01282051282051282
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "TJP2",
+        "count": 0.01282051282051282
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "WWC3",
+        "count": 0.01282051282051282
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "adrenocortical cancer",
+        "gene_symbol": "TOTAL",
+        "count": 0.15384615384615385
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0.015384615384615385
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.023076923076923078
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.020512820512820513
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.020512820512820513
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0.007692307692307693
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.046153846153846156
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0.020512820512820513
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.15384615384615385
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.035897435897435895
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.015384615384615385
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.017948717948717947
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0.007692307692307693
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0.005128205128205128
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.015384615384615385
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.028205128205128206
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.007692307692307693
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.010256410256410256
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "STK3",
+        "count": 0.017948717948717947
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "STK4",
+        "count": 0.015384615384615385
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.007692307692307693
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.015384615384615385
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0.01282051282051282
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.007692307692307693
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.020512820512820513
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.028205128205128206
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0.002564102564102564
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.017948717948717947
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.010256410256410256
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.02564102564102564
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0.01282051282051282
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.015384615384615385
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0.005128205128205128
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0.005128205128205128
+      },
+      {
+        "disease": "bladder urothelial carcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.41794871794871796
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.007751937984496124
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "DCHS1",
+        "count": 0.007751937984496124
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "DVL2",
+        "count": 0.001937984496124031
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "FAT4",
+        "count": 0.013565891472868217
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "LATS1",
+        "count": 0.003875968992248062
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "LATS2",
+        "count": 0.003875968992248062
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "NEK8",
+        "count": 0.003875968992248062
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "NPHP4",
+        "count": 0.001937984496124031
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "PJA2",
+        "count": 0.001937984496124031
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "STK3",
+        "count": 0.005813953488372093
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "TEAD1",
+        "count": 0.001937984496124031
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "TEAD2",
+        "count": 0.001937984496124031
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "TEAD3",
+        "count": 0.001937984496124031
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "TEAD4",
+        "count": 0.001937984496124031
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "TJP1",
+        "count": 0.009689922480620155
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "TJP2",
+        "count": 0.001937984496124031
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "WTIP",
+        "count": 0.001937984496124031
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "WWC1",
+        "count": 0.003875968992248062
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "WWC2",
+        "count": 0.001937984496124031
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "WWC3",
+        "count": 0.009689922480620155
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "YWHAB",
+        "count": 0.003875968992248062
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "brain lower grade glioma",
+        "gene_symbol": "TOTAL",
+        "count": 0.06395348837209303
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0.0010245901639344263
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.007172131147540984
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.006147540983606557
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.0020491803278688526
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0.0010245901639344263
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.015368852459016393
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.02151639344262295
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.005122950819672131
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.0020491803278688526
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.0020491803278688526
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0.0010245901639344263
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0.0010245901639344263
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.006147540983606557
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.004098360655737705
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.009221311475409836
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.005122950819672131
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0.0020491803278688526
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0.0010245901639344263
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "STK3",
+        "count": 0.0020491803278688526
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "STK4",
+        "count": 0.0030737704918032786
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.0030737704918032786
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.0030737704918032786
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0.0010245901639344263
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.005122950819672131
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.00819672131147541
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.006147540983606557
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0.0030737704918032786
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.00819672131147541
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.004098360655737705
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.009221311475409836
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.0010245901639344263
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0.0030737704918032786
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "breast invasive carcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.1096311475409836
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "AJUBA",
+        "count": 0.010362694300518135
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "AMOT",
+        "count": 0.02072538860103627
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "AMOTL1",
+        "count": 0.010362694300518135
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "AMOTL2",
+        "count": 0.010362694300518135
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "CASP3",
+        "count": 0.0051813471502590676
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "DCHS1",
+        "count": 0.05699481865284974
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "FAT4",
+        "count": 0.046632124352331605
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "LATS1",
+        "count": 0.046632124352331605
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "LATS2",
+        "count": 0.010362694300518135
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "LIMD1",
+        "count": 0.015544041450777202
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "MOB1B",
+        "count": 0.0051813471502590676
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "NEK8",
+        "count": 0.010362694300518135
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "NF2",
+        "count": 0.015544041450777202
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "NPHP4",
+        "count": 0.015544041450777202
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "PJA2",
+        "count": 0.010362694300518135
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "SOX11",
+        "count": 0.015544041450777202
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "STK3",
+        "count": 0.010362694300518135
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "STK4",
+        "count": 0.010362694300518135
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "TEAD1",
+        "count": 0.015544041450777202
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "TEAD2",
+        "count": 0.0051813471502590676
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "TEAD4",
+        "count": 0.0051813471502590676
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "TJP1",
+        "count": 0.03626943005181347
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "TJP2",
+        "count": 0.03626943005181347
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "WTIP",
+        "count": 0.0051813471502590676
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "WWC1",
+        "count": 0.02072538860103627
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "WWC2",
+        "count": 0.02072538860103627
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "WWC3",
+        "count": 0.015544041450777202
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "YAP1",
+        "count": 0.0051813471502590676
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "YWHAE",
+        "count": 0.010362694300518135
+      },
+      {
+        "disease": "cervical & endocervical cancer",
+        "gene_symbol": "TOTAL",
+        "count": 0.3160621761658031
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.027777777777777776
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.027777777777777776
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.05555555555555555
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.027777777777777776
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0.027777777777777776
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0.027777777777777776
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "cholangiocarcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.1388888888888889
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0.014285714285714285
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.047619047619047616
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.023809523809523808
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.023809523809523808
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0.009523809523809525
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.09523809523809523
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0.01904761904761905
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.24285714285714285
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.02857142857142857
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.1
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.02857142857142857
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0.004761904761904762
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.03333333333333333
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.01904761904761905
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.06190476190476191
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.009523809523809525
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0.004761904761904762
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0.004761904761904762
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "STK3",
+        "count": 0.01904761904761905
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "STK4",
+        "count": 0.014285714285714285
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.009523809523809525
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.05238095238095238
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0.01904761904761905
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.014285714285714285
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.03333333333333333
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.05714285714285714
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0.004761904761904762
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.023809523809523808
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.03333333333333333
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.0380952380952381
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0.009523809523809525
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.009523809523809525
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0.009523809523809525
+      },
+      {
+        "disease": "colon adenocarcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.45714285714285713
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "AMOT",
+        "count": 0.08333333333333333
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.0625
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.020833333333333332
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.041666666666666664
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "FAT4",
+        "count": 0.20833333333333334
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "LATS2",
+        "count": 0.041666666666666664
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.041666666666666664
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.08333333333333333
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "STK3",
+        "count": 0.020833333333333332
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.020833333333333332
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "TEAD3",
+        "count": 0.020833333333333332
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "TJP1",
+        "count": 0.041666666666666664
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "TJP2",
+        "count": 0.08333333333333333
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "WWC2",
+        "count": 0.041666666666666664
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "WWC3",
+        "count": 0.041666666666666664
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "diffuse large B-cell lymphoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.4791666666666667
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0.01098901098901099
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.027472527472527472
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.005494505494505495
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.01098901098901099
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.027472527472527472
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0.005494505494505495
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.07692307692307693
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.01098901098901099
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.02197802197802198
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.005494505494505495
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0.005494505494505495
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.005494505494505495
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.01098901098901099
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.016483516483516484
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0.005494505494505495
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0.027472527472527472
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "STK4",
+        "count": 0.01098901098901099
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.005494505494505495
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.005494505494505495
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.016483516483516484
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.02197802197802198
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.005494505494505495
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.01098901098901099
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.01098901098901099
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.01098901098901099
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0.005494505494505495
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "esophageal carcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.2857142857142857
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "DCHS1",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "DVL2",
+        "count": 0.006578947368421052
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "FAT4",
+        "count": 0.013157894736842105
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "LATS2",
+        "count": 0.006578947368421052
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "NEK8",
+        "count": 0.006578947368421052
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "NPHP4",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "PJA2",
+        "count": 0.006578947368421052
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "STK3",
+        "count": 0.013157894736842105
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "STK4",
+        "count": 0.006578947368421052
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "TEAD1",
+        "count": 0.006578947368421052
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "TJP1",
+        "count": 0.019736842105263157
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "TJP2",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "WWC2",
+        "count": 0.006578947368421052
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "WWC3",
+        "count": 0.013157894736842105
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "YWHAB",
+        "count": 0.006578947368421052
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "YWHAE",
+        "count": 0.013157894736842105
+      },
+      {
+        "disease": "glioblastoma multiforme",
+        "gene_symbol": "TOTAL",
+        "count": 0.07894736842105263
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0.06573705179282868
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.01195219123505976
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.01195219123505976
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.00398406374501992
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0.00398406374501992
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.03386454183266932
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0.00199203187250996
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.08167330677290836
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.013944223107569721
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.01195219123505976
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0.00398406374501992
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0.00398406374501992
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.0099601593625498
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.013944223107569721
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.013944223107569721
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.00796812749003984
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0.00398406374501992
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0.00199203187250996
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "STK3",
+        "count": 0.00597609561752988
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "STK4",
+        "count": 0.00398406374501992
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.00597609561752988
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.00199203187250996
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.00796812749003984
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.0199203187250996
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.0099601593625498
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0.00398406374501992
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.0199203187250996
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.01195219123505976
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.013944223107569721
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0.00199203187250996
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.00597609561752988
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0.00398406374501992
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0.00199203187250996
+      },
+      {
+        "disease": "head & neck squamous cell carcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.3107569721115538
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "DCHS1",
+        "count": 0.015151515151515152
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "FAT4",
+        "count": 0.045454545454545456
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "LATS2",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "NPHP4",
+        "count": 0.015151515151515152
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "TJP1",
+        "count": 0.015151515151515152
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "TJP2",
+        "count": 0.015151515151515152
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "WTIP",
+        "count": 0.015151515151515152
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "WWC3",
+        "count": 0.015151515151515152
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "WWTR1",
+        "count": 0.015151515151515152
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "YAP1",
+        "count": 0.015151515151515152
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "kidney chromophobe",
+        "gene_symbol": "TOTAL",
+        "count": 0.09090909090909091
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0.014150943396226415
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.014150943396226415
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.05188679245283019
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0.0047169811320754715
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.03773584905660377
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.0047169811320754715
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.0047169811320754715
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.0047169811320754715
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.009433962264150943
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.02358490566037736
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.009433962264150943
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.0047169811320754715
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.009433962264150943
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.009433962264150943
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0.0047169811320754715
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.0047169811320754715
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "kidney clear cell carcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.16981132075471697
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.005952380952380952
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.023809523809523808
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.005952380952380952
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.023809523809523808
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.017857142857142856
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.005952380952380952
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.005952380952380952
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.011904761904761904
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.005952380952380952
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.05357142857142857
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.005952380952380952
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0.023809523809523808
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.005952380952380952
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.005952380952380952
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0.005952380952380952
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.005952380952380952
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.011904761904761904
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.011904761904761904
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.011904761904761904
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "kidney papillary cell carcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.22023809523809523
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0.0027247956403269754
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.008174386920980926
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.008174386920980926
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.005449591280653951
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0.005449591280653951
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.043596730245231606
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0.010899182561307902
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.051771117166212535
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.01634877384196185
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.008174386920980926
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.005449591280653951
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.0027247956403269754
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.010899182561307902
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.013623978201634877
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.013623978201634877
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0.0027247956403269754
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0.005449591280653951
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "STK3",
+        "count": 0.013623978201634877
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "STK4",
+        "count": 0.0027247956403269754
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.008174386920980926
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.0027247956403269754
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0.008174386920980926
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.010899182561307902
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.01634877384196185
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.008174386920980926
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.021798365122615803
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.010899182561307902
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.005449591280653951
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0.005449591280653951
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.008174386920980926
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0.0027247956403269754
+      },
+      {
+        "disease": "liver hepatocellular carcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.22343324250681199
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0.006160164271047228
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.03285420944558522
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.018480492813141684
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.004106776180698152
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0.01026694045174538
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.08624229979466119
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0.012320328542094456
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.14989733059548255
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.028747433264887063
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.024640657084188913
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.006160164271047228
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0.002053388090349076
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0.008213552361396304
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.01026694045174538
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.01026694045174538
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.026694045174537988
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.01642710472279261
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0.008213552361396304
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0.012320328542094456
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "STK3",
+        "count": 0.008213552361396304
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "STK4",
+        "count": 0.012320328542094456
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.006160164271047228
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.004106776180698152
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0.004106776180698152
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.01026694045174538
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.024640657084188913
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.008213552361396304
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0.004106776180698152
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.018480492813141684
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.012320328542094456
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.024640657084188913
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0.006160164271047228
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.002053388090349076
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0.002053388090349076
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0.002053388090349076
+      },
+      {
+        "disease": "lung adenocarcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.42505133470225875
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.02247191011235955
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.016853932584269662
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.011235955056179775
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.07865168539325842
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.14606741573033707
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.016853932584269662
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.011235955056179775
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.02247191011235955
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.011235955056179775
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.028089887640449437
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.011235955056179775
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0.011235955056179775
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "STK3",
+        "count": 0.011235955056179775
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "STK4",
+        "count": 0.011235955056179775
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.0056179775280898875
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.016853932584269662
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.05056179775280899
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.016853932584269662
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0.0056179775280898875
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.028089887640449437
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.016853932584269662
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.02247191011235955
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0.011235955056179775
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.0056179775280898875
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0.0056179775280898875
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "lung squamous cell carcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.43258426966292135
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "AJUBA",
+        "count": 0.012048192771084338
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.012048192771084338
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.012048192771084338
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "DCHS1",
+        "count": 0.012048192771084338
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "FAT4",
+        "count": 0.0963855421686747
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "LATS1",
+        "count": 0.024096385542168676
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "LATS2",
+        "count": 0.07228915662650602
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "LIMD1",
+        "count": 0.012048192771084338
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "NF2",
+        "count": 0.13253012048192772
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "NPHP4",
+        "count": 0.012048192771084338
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "SOX11",
+        "count": 0.012048192771084338
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "TJP1",
+        "count": 0.012048192771084338
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "TJP2",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "WTIP",
+        "count": 0.012048192771084338
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "WWC3",
+        "count": 0.012048192771084338
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "YWHAB",
+        "count": 0.012048192771084338
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "mesothelioma",
+        "gene_symbol": "TOTAL",
+        "count": 0.3614457831325301
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.0106951871657754
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.016042780748663103
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.026737967914438502
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.016042780748663103
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0.0053475935828877
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.0053475935828877
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.0053475935828877
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.0053475935828877
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0.0053475935828877
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.0053475935828877
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.0053475935828877
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.0106951871657754
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.0053475935828877
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.0053475935828877
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0.0053475935828877
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0.0053475935828877
+      },
+      {
+        "disease": "ovarian serous cystadenocarcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.12299465240641712
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.013333333333333334
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.03333333333333333
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0.013333333333333334
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.06
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.02
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.013333333333333334
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "STK3",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.013333333333333334
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.02
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.013333333333333334
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0.013333333333333334
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "pancreatic adenocarcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.16
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "AMOT",
+        "count": 0.00558659217877095
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "CASP3",
+        "count": 0.00558659217877095
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "DCHS1",
+        "count": 0.01675977653631285
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "DVL2",
+        "count": 0.0111731843575419
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "FAT4",
+        "count": 0.00558659217877095
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "LATS2",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "NPHP4",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "SOX11",
+        "count": 0.00558659217877095
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "TJP1",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "TJP2",
+        "count": 0.00558659217877095
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "WWC3",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "pheochromocytoma & paraganglioma",
+        "gene_symbol": "TOTAL",
+        "count": 0.05027932960893855
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.0030211480362537764
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.00906344410876133
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.021148036253776436
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.0030211480362537764
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.0030211480362537764
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.006042296072507553
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.0030211480362537764
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0.0030211480362537764
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0.0030211480362537764
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "STK4",
+        "count": 0.0030211480362537764
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.0030211480362537764
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.0030211480362537764
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.006042296072507553
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.006042296072507553
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.0030211480362537764
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.0030211480362537764
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "prostate adenocarcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.07854984894259819
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.012345679012345678
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.012345679012345678
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.04938271604938271
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.12345679012345678
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.037037037037037035
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.16049382716049382
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.012345679012345678
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.024691358024691357
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0.012345679012345678
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.012345679012345678
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.037037037037037035
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.012345679012345678
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.037037037037037035
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.012345679012345678
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.037037037037037035
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0.012345679012345678
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.012345679012345678
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "rectum adenocarcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.3950617283950617
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "AJUBA",
+        "count": 0.003952569169960474
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "AMOT",
+        "count": 0.007905138339920948
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.015810276679841896
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "FAT4",
+        "count": 0.019762845849802372
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "LATS2",
+        "count": 0.011857707509881422
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "MOB1B",
+        "count": 0.003952569169960474
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "NEK8",
+        "count": 0.003952569169960474
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "NF2",
+        "count": 0.003952569169960474
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.003952569169960474
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.003952569169960474
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "TJP1",
+        "count": 0.007905138339920948
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "TJP2",
+        "count": 0.015810276679841896
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "WWC1",
+        "count": 0.023715415019762844
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "WWC2",
+        "count": 0.011857707509881422
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "WWC3",
+        "count": 0.011857707509881422
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "YAP1",
+        "count": 0.003952569169960474
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "sarcoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.11857707509881422
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "AMOT",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "CASP3",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.07766990291262135
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "DVL2",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "FAT4",
+        "count": 0.2815533980582524
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "LATS1",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "LATS2",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "MOB1B",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "NEK8",
+        "count": 0.019417475728155338
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "NF2",
+        "count": 0.019417475728155338
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "PJA2",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "SOX11",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "STK4",
+        "count": 0.019417475728155338
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.02912621359223301
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "TJP1",
+        "count": 0.04854368932038835
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "TJP2",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "WTIP",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "WWC1",
+        "count": 0.05825242718446602
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "WWC3",
+        "count": 0.019417475728155338
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "WWTR1",
+        "count": 0.019417475728155338
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "YAP1",
+        "count": 0.009708737864077669
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "skin cutaneous melanoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.4563106796116505
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0.007352941176470588
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0.03676470588235294
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.025735294117647058
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.03676470588235294
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0.007352941176470588
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.09926470588235294
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0.01838235294117647
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0.23897058823529413
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.051470588235294115
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.03676470588235294
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.014705882352941176
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0.003676470588235294
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.03676470588235294
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.011029411764705883
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.04779411764705882
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0.014705882352941176
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0.011029411764705883
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0.01838235294117647
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "STK3",
+        "count": 0.01838235294117647
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "STK4",
+        "count": 0.007352941176470588
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.003676470588235294
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.029411764705882353
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0.003676470588235294
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.022058823529411766
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.0625
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0.04411764705882353
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0.003676470588235294
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0.04411764705882353
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0.025735294117647058
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.05514705882352941
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0.007352941176470588
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0.003676470588235294
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0.007352941176470588
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0.007352941176470588
+      },
+      {
+        "disease": "stomach adenocarcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.44485294117647056
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "CASP3",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "DCHS1",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "FAT4",
+        "count": 0.013333333333333334
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "LATS2",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "NPHP4",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "STK3",
+        "count": 0.006666666666666667
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "TJP1",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "TJP2",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "WWC3",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "testicular germ cell tumor",
+        "gene_symbol": "TOTAL",
+        "count": 0.04666666666666667
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.008403361344537815
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "FAT4",
+        "count": 0.025210084033613446
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "LATS2",
+        "count": 0.008403361344537815
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "NF2",
+        "count": 0.008403361344537815
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "NPHP4",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.008403361344537815
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.008403361344537815
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "TJP1",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "TJP2",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "WWC3",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "thymoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.058823529411764705
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.002028397565922921
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.002028397565922921
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0.002028397565922921
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.006085192697768763
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0.002028397565922921
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0.002028397565922921
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0.002028397565922921
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0.002028397565922921
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0.002028397565922921
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0.004056795131845842
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "NF2",
+        "count": 0.002028397565922921
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0.004056795131845842
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0.002028397565922921
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0.002028397565922921
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "thyroid carcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.036511156186612576
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "AMOT",
+        "count": 0.017543859649122806
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "DCHS1",
+        "count": 0.017543859649122806
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "FAT4",
+        "count": 0.03508771929824561
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "LATS1",
+        "count": 0.017543859649122806
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "LATS2",
+        "count": 0.017543859649122806
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "NPHP4",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "PJA2",
+        "count": 0.03508771929824561
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "SAV1",
+        "count": 0.03508771929824561
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "STK3",
+        "count": 0.017543859649122806
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "STK4",
+        "count": 0.017543859649122806
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "TEAD2",
+        "count": 0.017543859649122806
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "TJP1",
+        "count": 0.017543859649122806
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "TJP2",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "WWC1",
+        "count": 0.017543859649122806
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "WWC3",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "uterine carcinosarcoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.15789473684210525
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0.14285714285714285
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "DCHS1",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "DVL2",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "FAT4",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "LATS2",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "NPHP4",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "SAV1",
+        "count": 0.14285714285714285
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "STK3",
+        "count": 0.14285714285714285
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "TEAD3",
+        "count": 0.14285714285714285
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "TJP1",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "TJP2",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "WWC3",
+        "count": 0.14285714285714285
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "YAP1",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "uterine corpus endometrioid carcinoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.2857142857142857
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "AJUBA",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "AMOT",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "AMOTL1",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "AMOTL2",
+        "count": 0.0125
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "CASP3",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "DCHS1",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "DVL2",
+        "count": 0.0125
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "FAT4",
+        "count": 0.0125
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "LATS1",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "LATS2",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "LIMD1",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "MOB1A",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "MOB1B",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "NEK8",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "NF2",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "NPHP4",
+        "count": 0.0125
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "PJA2",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "SAV1",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "SOX11",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "STK3",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "STK4",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "TEAD1",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "TEAD2",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "TEAD3",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "TEAD4",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "TJP1",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "TJP2",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "WTIP",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "WWC1",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "WWC2",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "WWC3",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "WWTR1",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "YAP1",
+        "count": 0.0125
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "YWHAB",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "YWHAE",
+        "count": 0
+      },
+      {
+        "disease": "uveal melanoma",
+        "gene_symbol": "TOTAL",
+        "count": 0.0625
+      }
+    ]
+  }
+}
