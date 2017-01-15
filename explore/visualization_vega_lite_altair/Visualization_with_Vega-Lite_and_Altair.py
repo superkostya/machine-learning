@@ -19,7 +19,7 @@
 # ### Part 1: Recreate the previous result with Seaborn
 # Now we are ready to proceed. As a starting point, we make an attempt to recreate the heatmap that shows the connection between different types of cancer and various gene mutations. This has been originally done in "3.TCGA-MLexample_Pathway.ipynb" so the first part of this notebook simply replicates those steps in order to create the original heatmap using Seaborn.
 
-# In[3]:
+# In[2]:
 
 import os
 import urllib
@@ -45,7 +45,7 @@ plt.style.use('seaborn-notebook')
 
 # #### Specify model configuration - Generate genelist
 
-# In[4]:
+# In[3]:
 
 names = ('label', 'rel_type', 'node_id')
 query_params = [
@@ -57,7 +57,7 @@ query_params = [
 param_list = [dict(zip(names, qp)) for qp in query_params]
 
 
-# In[5]:
+# In[4]:
 
 query = '''
 MATCH (node)-[rel]-(gene)
@@ -71,7 +71,7 @@ ORDER BY gene_symbol
 '''
 
 
-# In[6]:
+# In[5]:
 
 driver = GraphDatabase.driver("bolt://neo4j.het.io")
 full_results_df = pd.DataFrame()
@@ -85,7 +85,7 @@ classifier_genes_df = full_results_df.drop_duplicates().sort_values('gene_symbol
 classifier_genes_df['entrez_gene_id'] = classifier_genes_df['entrez_gene_id'].astype('str')
 
 
-# In[7]:
+# In[6]:
 
 # Here are the genes that participate in the Hippo signaling pathway
 classifier_genes_df
@@ -93,28 +93,28 @@ classifier_genes_df
 
 # #### Load Data
 
+# In[7]:
+
+get_ipython().run_cell_magic('time', '', "path = os.path.join('../../download', 'expression-matrix.tsv.bz2')\nX = pd.read_table(path, index_col=0)")
+
+
 # In[8]:
 
-get_ipython().run_cell_magic('time', '', "path = os.path.join('../download', 'expression-matrix.tsv.bz2')\nX = pd.read_table(path, index_col=0)")
+get_ipython().run_cell_magic('time', '', "path = os.path.join('../../download', 'mutation-matrix.tsv.bz2')\nY = pd.read_table(path, index_col=0)")
 
 
 # In[9]:
 
-get_ipython().run_cell_magic('time', '', "path = os.path.join('../download', 'mutation-matrix.tsv.bz2')\nY = pd.read_table(path, index_col=0)")
+get_ipython().run_cell_magic('time', '', "path = os.path.join('../../download', 'samples.tsv')\nclinical = pd.read_table(path, index_col=0)")
 
 
 # In[10]:
-
-get_ipython().run_cell_magic('time', '', "path = os.path.join('../download', 'samples.tsv')\nclinical = pd.read_table(path, index_col=0)")
-
-
-# In[11]:
 
 # Subset the Y matrix to only the genes to be classified
 y_full = Y[classifier_genes_df['entrez_gene_id']]
 
 
-# In[12]:
+# In[11]:
 
 y_full.columns = classifier_genes_df['gene_symbol']
 y_full = y_full.assign(disease = clinical['disease'])
@@ -123,14 +123,14 @@ y_full = y_full.assign(disease = clinical['disease'])
 y = y_full.assign(indicator = y_full.max(axis=1))
 
 
-# In[13]:
+# In[12]:
 
 unique_pos = y.groupby('disease').apply(lambda x: x['indicator'].sum())
 heatmap_df0 = y_full.groupby('disease').sum().assign(TOTAL = unique_pos)
 heatmap_df = heatmap_df0.divide(y_full.disease.value_counts(sort=False).sort_index(), axis=0)
 
 
-# In[14]:
+# In[13]:
 
 # What is the percentage of different mutations across different cancer types?
 sns.heatmap(heatmap_df);
@@ -140,39 +140,78 @@ sns.heatmap(heatmap_df);
 # 
 # In order to take advantage of the Altair API, we have to covert the data into the so called long format (often referred to as the tidy format).
 
-# In[15]:
+# In[14]:
 
 # Stack it: 
 heatmap_df_stacked = heatmap_df.stack()
 heatmap_df_stacked.head()
 
 
+# In[15]:
+
+# The problem is that stack() produces an object 
+# that is NOT Pandas Data Frame:
+type(heatmap_df_stacked)
+
+
 # In[16]:
 
-# Convert into the Pandas dataframe
-df000 = pd.DataFrame(heatmap_df_stacked)
-df000.head(4)
+# So let's convert it into the Pandas dataframe
+heatmap_df_tidy = pd.DataFrame(heatmap_df_stacked)
+heatmap_df_tidy.head(4)
 
 
 # In[17]:
 
 # Fix the index: Get rid of Multilevel
-df111 = df000.reset_index(level=['disease', 'gene_symbol'])
-df111.head()
+heatmap_df_tidy = heatmap_df_tidy.reset_index(level=['disease', 'gene_symbol'])
+heatmap_df_tidy.head()
 
 
-# In[18]:
+# In[19]:
 
-# Give the third column a meaningful name: 'count'
-df111.columns = ['disease', 'gene_symbol', 'count']
-df111.head()
+# Give the third column a meaningful name: 'frequency'
+heatmap_df_tidy.columns = ['disease', 'gene_symbol', 'frequency']
+heatmap_df_tidy.head()
+
+
+# Let's export the Pandas DataFrame into a Vega Lite JSON and save it in a file:
+
+# In[49]:
+
+from altair import Row, Column, Chart, Text, Data
+import json
+json_dump_kwargs = {
+    'ensure_ascii': False,
+    'indent': 2,
+    'sort_keys': True,
+}
+def df_to_vega_lite(df, path=None):
+    """
+    Export a pandas.DataFrame to a vega-lite data JSON.
+    
+    Params
+    ------
+    df : pandas.DataFrame
+        dataframe to convert to JSON
+    path : None or str
+        if None, return the JSON str. Else write JSON to the file specified by
+        path.
+    Source: https://github.com/dhimmel/biorxiv-licenses/
+    """
+    chart = Chart(data=df)
+    data = chart.to_dict()['data']['values']
+    if path is None:
+        return json.dumps(data, **json_dump_kwargs)
+    with open(path, 'w') as write_file:
+        json.dump(data, write_file, **json_dump_kwargs)
+        
+df_to_vega_lite(heatmap_df_tidy, path='./heatmap_data_Altair_compatible.json')
 
 
 # ###  Now we are ready to build the new heatmap
 
-# In[19]:
-
-from altair import Row, Column, Chart, Text
+# In[60]:
 
 def heatmap(data, row, column, color, cellsize=(30, 15)):
     """Create an Altair Heat-Map
@@ -184,7 +223,7 @@ def heatmap(data, row, column, color, cellsize=(30, 15)):
     cellsize : tuple
         specify (width, height) of cells in pixels
     """
-    return Chart(data).mark_text(
+    chart = Chart(data).mark_text(
                applyColorToBackground=True,
            ).encode(
                row=row,
@@ -195,7 +234,10 @@ def heatmap(data, row, column, color, cellsize=(30, 15)):
                textBandWidth=cellsize[0],
                bandSize=cellsize[1]
            )
-heat = heatmap(df111, column='gene_symbol', row='disease', color='count')
+#     chart = chart.encode(column=Column(axis=Axis(labelAngle='-90', offset='25')))
+    return chart
+heat = heatmap(Data(url='./heatmap_data_Altair_compatible.json'), 
+               column='gene_symbol', row='disease', color='frequency')
 heat
 
 
