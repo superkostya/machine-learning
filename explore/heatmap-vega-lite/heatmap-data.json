@@ -1,4 +1,5 @@
-[
+"data": {
+  "values": [
   {
     "disease": "adrenocortical cancer",
     "frequency": 0.01282051282051282,
@@ -5759,4 +5760,4 @@
     "frequency": 0.0625,
     "gene_symbol": "TOTAL"
   }
-]
+]}
